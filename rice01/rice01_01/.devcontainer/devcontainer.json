@@ -1,0 +1,16 @@
+{
+	"name": "Rust",
+	"image": "korustbullseye",
+	"features": {
+		"ghcr.io/lee-orr/rusty-dev-containers/fermyon-spin:0": {},
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"vadimcn.vscode-lldb",
+				"rust-lang.rust-analyzer"
+			]
+		}
+	}
+}
