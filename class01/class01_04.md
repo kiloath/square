@@ -1,6 +1,6 @@
 ```
 docker version
-wsl --set-default rancher-desktop
+# wsl --set-default rancher-desktop
 cd ~ ; rm ~\korice\rice01_04 -r -fo -ea si
 ni ~\korice\rice01_04 -i d -f | cd
 code .

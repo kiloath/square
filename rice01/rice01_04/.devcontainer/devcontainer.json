@@ -1,4 +1,5 @@
 {
 	"name": "Rust",
-	"image": "korust2"
+	"image": "korustbullseye2",
+	"runArgs": ["--name=rice01_04"]
 }
