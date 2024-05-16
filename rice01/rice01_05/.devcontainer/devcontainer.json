@@ -1,0 +1,5 @@
+{
+	"name": "Rust",
+	"image": "korustbullseye2",
+	"runArgs": ["--name=rice01_05"]
+}

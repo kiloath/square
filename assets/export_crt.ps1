@@ -8,6 +8,3 @@ $s3 = $s2 -split '=';
 Export-Certificate -Cert $_ -FilePath "$($s3[1]).cer";
 Start-Process -FilePath 'certutil.exe' `
 -ArgumentList "-encode $($s3[1]).cer $($s3[1]).crt"}
-
-docker build -t korustbullseye:latest .
-devcontainer build --no-cache --workspace-folder . --image-name korustbullseye2:latest

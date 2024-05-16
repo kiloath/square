@@ -1,4 +1,3 @@
-* follow class01_02
 ```
 docker version
 wsl --set-default rancher-desktop
