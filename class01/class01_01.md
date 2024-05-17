@@ -5,7 +5,7 @@ cd ~ ; rm ~\korice\korust -r -fo -ea si
 ni ~\korice\korust -i d -f | cd
 code .
 ```
-> * copy korust
+> * copy workspace\korust\\*
 ```
 export_crt.ps1
 docker build -t korustbase:latest .
