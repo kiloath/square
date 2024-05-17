@@ -1,12 +1,12 @@
 ```
 docker version
 # wsl --set-default rancher-desktop
-cd ~ ; rm ~\korice\korust -r -fo -ea si
+cd ~ ; rm ~\korice\korust\.devcontainer.json -r -fo -ea si
 ni ~\korice\korust -i d -f | cd
 # cd ~\korice\korust
 code .
 ```
-> * copy workspace\korust\\*
+> * copy workspace\korust_build\\*
 ```
 export_crt.ps1
 docker build -t korustbase:latest .
