@@ -1,21 +1,5 @@
 {
 	"name": "Rust",
-	"build": {
-		"dockerfile": "Dockerfile",
-		"context": ".."
-	},
-	"features": {
-		"ghcr.io/lee-orr/rusty-dev-containers/fermyon-spin:0": {},
-		"ghcr.io/devcontainers/features/docker-in-docker:2": {}
-	},
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"vadimcn.vscode-lldb",
-				"rust-lang.rust-analyzer"
-			]
-		}
-	},
-	"runArgs": ["--init","--name=korust"],
-	"postCreateCommand": "docker pull ghcr.io/cross-rs/x86_64-pc-windows-gnu:0.2.5"
+	"image": "korust:latest",
+	"runArgs": ["--init","--name=korust"]
 }

@@ -1,8 +1,7 @@
 ```
 docker version
 # wsl --set-default rancher-desktop
-cd ~ ; rm ~\korice\rice01_02 -r -fo -ea si
-ni ~\korice\rice01_02 -i d -f | cd
+cd ~\korice\korust
 code .
 ```
 > * copy rice01_02
