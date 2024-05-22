@@ -8,6 +8,7 @@ code .
 ```
 > * copy workspace\korust_build\\*
 ```
+cd ~\korice\korust\.devcontainer
 export_crt.ps1
 docker build -t korustbase:latest .
 devcontainer build --workspace-folder . --image-name korust:latest

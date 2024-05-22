@@ -10,13 +10,10 @@ code .
 > * 在容器中重新開啟
 ```
 cargo new --lib rice02_01
+cd rice02_01
 ```
-* windows
+> * copy rice02\rice02_01
 ```
-target\x86_64-pc-windows-gnu\release\rice01_01.exe
-target\x86_64-pc-windows-gnu\release\rice01_02.exe
+npm install
+npm run serve
 ```
-* rice01_01和rice01_02各做一次Debug
-> * main.rs -> Debug main()
-> * F1:rust-analyzer: Generate launch configuration
-> * Debug
