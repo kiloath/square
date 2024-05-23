@@ -15,5 +15,5 @@ cd rice02_02
 > * copy rice02\rice02_02
 ```
 trunk build
-truck serve
+trunk serve
 ```
