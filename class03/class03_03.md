@@ -13,7 +13,11 @@ cargo leptos new --git leptos-rs/start-axum
 * rice03_03
 * Yes: Use nightly feature?
 cargo leptos watch
-cargo leptos build -vv
+```
+> * Cargo.toml先改為Cargo.txt
+```
+cd rice03_03
+cargo leptos build --release -vv
 ```
 * Cargo.toml
 ```
