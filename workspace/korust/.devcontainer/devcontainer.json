@@ -1,5 +1,5 @@
 {
 	"name": "Rust",
 	"image": "korust:latest",
-	"runArgs": ["--init","--name=korust"]
+	"runArgs": ["--network=host","--init","--name=korust"]
 }
