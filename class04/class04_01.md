@@ -1,3 +1,4 @@
+https://book.leptos.dev/islands.html
 ```
 cd ~ ; rm ~\korice\korust04 -r -fo
 ni ~\korice\korust04 -i d -f | cd
