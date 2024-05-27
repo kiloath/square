@@ -15,6 +15,7 @@ start http://127.0.0.1:3000
 ```
 > * copy rice02\rice04_01
 ```
+git add .;git commit -m 'islands1'
 # npm install -g binaryen
 cargo leptos build --release -vv
 target\release\rice04_01.exe
