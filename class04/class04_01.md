@@ -31,6 +31,6 @@ copy ~\korice\korust04\rice04_01\target\release\rice04_01.exe ~\korice\korust04\
 copy ~\korice\korust04\rice04_01\target\site ~\korice\korust04\output -r
 $env:LEPTOS_SITE_ROOT="site"
 $env:LEPTOS_SITE_ADDR="127.0.0.1:8081"
-rice04_01.exe
+.\rice04_01.exe
 start http://127.0.0.1:8081
 ```
