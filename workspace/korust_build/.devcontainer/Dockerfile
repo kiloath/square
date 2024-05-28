@@ -24,5 +24,6 @@ RUN cargo install cargo-update
 RUN cargo install cargo-leptos
 RUN cargo install tauri-cli --version '^2.0.0-beta'
 RUN cargo install create-tauri-app
+RUN cargo install cargo-generate
 ENV LEPTOS_CARGO_GENERATE_VERSION=v0.21.0
 ENV LEPTOS_SASS_VERSION=1.71.0
