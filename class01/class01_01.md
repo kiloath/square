@@ -10,7 +10,7 @@ code .
 ```
 cd ~\korice\korust\.devcontainer
 export_crt.ps1
-docker build --no-cache -t korustbase:latest .
+docker build --network=host --no-cache -t korustbase:latest .
 devcontainer build --no-cache --workspace-folder . --image-name korust:latest
 rm Dockerfile, *.crt, *.cer, *.ps1, .dev* -r
 ```
