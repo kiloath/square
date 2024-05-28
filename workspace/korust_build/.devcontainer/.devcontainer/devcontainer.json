@@ -3,8 +3,8 @@
 	"image": "korustbase:latest",
 	"remoteUser": "root",
 	"features": {
-		"ghcr.io/lee-orr/rusty-dev-containers/fermyon-spin:0": {},
-		"ghcr.io/devcontainers/features/docker-in-docker:2": {},
+		// "ghcr.io/lee-orr/rusty-dev-containers/fermyon-spin:0": {},
+		// "ghcr.io/devcontainers/features/docker-in-docker:2": {},
 		"ghcr.io/devcontainers/features/node:1": {}
 	},
 	"customizations": {
