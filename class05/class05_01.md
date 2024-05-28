@@ -18,12 +18,11 @@ cargo leptos serve
 > * 瀏覽網站
 ```
 cargo leptos build --release -vv
-cd / && rmdir /workspaces/output
-mkdir /workspaces/output && cd "$_"
-cp /workspaces/korust/rice05_01/target/release/rice05_01 /workspaces/output
-cp /workspaces/korust/rice05_01/target/site /workspaces/output
-$env:LEPTOS_SITE_ROOT="site"
-$env:LEPTOS_SITE_ADDR="127.0.0.1:8081"
-.\rice04_01.exe
-start http://127.0.0.1:8081
+cd / && rm -r /workspaces/korust/output
+mkdir /workspaces/korust/output && cd "$_"
+cp /workspaces/korust/rice05_01/target/release/server /workspaces/korust/output
+cp -r /workspaces/korust/rice05_01/site /workspaces/korust/output
+export LEPTOS_SITE_ADDR="127.0.0.1:3005"
+./server
 ```
+> * 瀏覽網站

@@ -1,5 +1,8 @@
 {
 	"name": "Rust",
 	"image": "korust:latest",
-	"runArgs": ["--network=host","--init","--name=korust"]
+	"runArgs": ["--network=host","--init","--name=korust"],
+	"remoteEnv": {
+		"LEPTOS_SITE_ROOT": "site"
+	}
 }
