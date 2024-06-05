@@ -3,7 +3,7 @@
 # rustup default stable
 # cargo install-update -a
 # cargo install create-tauri-app
-# cd ~\korice\kotauri
+# cd ~\korice\kotauri\rice06_01
 cd ~ ; rm ~\korice\kotauri
 ni ~\korice\kotauri -i d -f | cd
 cargo create-tauri-app --beta
