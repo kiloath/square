@@ -7,6 +7,7 @@ cargo create-tauri-app --beta
 * Rust->Leptos->yes(mobile)
 cd rice06_01
 ac .gitignore src-tauri/gen/
+ac .gitignore src-tauri/.cargo/
 git init -q;git add .;git commit -m 'first commit'
 cargo tauri android init
 cargo tauri dev
