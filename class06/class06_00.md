@@ -5,3 +5,4 @@
 # cargo install create-tauri-app
 # cargo install --locked cargo-leptos
 # cargo install --locked trunk
+# npm install -g sass
