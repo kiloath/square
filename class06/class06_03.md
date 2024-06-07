@@ -30,9 +30,7 @@ trunk serve
 ```
 ac .gitignore /dist
 git init -q;git add .;git commit -m 'first commit'
-cargo add console_error_panic_hook
-cargo add console_log
-cargo add log
+cargo add console_error_panic_hook cargo add console_log log
 ```
 > * copy rice06\rice06_03
 ```
@@ -40,4 +38,7 @@ git add .;git commit -m 'step1'
 trunk serve
 ```
 > * 瀏覽網站
+```
+git add .;git commit -m 'step2'
+```
 
