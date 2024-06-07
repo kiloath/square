@@ -1,5 +1,5 @@
 ```
-# cd ~\korice\kotauri\rice06_0
+# cd ~\korice\kotauri\rice06_02
 cd ~;rm ~\korice\kotauri\rice06_02 -r -fo
 ni ~\korice\kotauri -i d -f | cd
 cargo leptos new --git https://github.com/leptos-rs/start-axum-workspace/
