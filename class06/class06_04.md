@@ -14,6 +14,9 @@ git init -q;git add .;git commit -m 'first commit'
 trunk serve
 ```
 > * 瀏覽網站
+```
+code .
+```
 * src/main.rs
 ```
 console_error_panic_hook::set_once();
@@ -31,7 +34,7 @@ newline_style = "Auto" # "Unix", "Windows" or "Auto"
 attr_value_brace_style = "WhenRequired" # "Always", "AlwaysUnlessLit", "WhenRequired" or "Preserve"
 macro_names = [ "leptos::view", "view" ] # Macro names which will be formatted
 ```
-> * F1->Open Workdspace settings
+> * F1->Open Workdspace settings(JSON)
 * .vscode\settings.json
 ```
 {
