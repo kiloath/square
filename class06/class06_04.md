@@ -19,4 +19,30 @@ trunk serve
 console_error_panic_hook::set_once();
 ```
 > * 瀏覽網站
-
+```
+cargo install leptosfmt
+```
+* leptosfmt.toml
+```
+max_width = 100 # Maximum width of each line
+tab_spaces = 4 # Number of spaces per tab
+indentation_style = "Auto" # "Tabs", "Spaces" or "Auto"
+newline_style = "Auto" # "Unix", "Windows" or "Auto"
+attr_value_brace_style = "WhenRequired" # "Always", "AlwaysUnlessLit", "WhenRequired" or "Preserve"
+macro_names = [ "leptos::view", "view" ] # Macro names which will be formatted
+```
+> * F1->Open Workdspace settings
+* .vscode\settings.json
+```
+{
+    "rust-analyzer.rustfmt.overrideCommand": [
+        "leptosfmt",
+        "--config-file",
+        "${workspaceFolder}\\leptosfmt.toml",
+        "--stdin",
+        "--rustfmt",
+    ]
+}
+```
+> * leptosfmt.toml: tab_spaces = 40
+> * lib.rs: Shift+Alt+F
