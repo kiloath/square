@@ -18,6 +18,6 @@ cp ~\korice\kotauri\rice06_02\target\release\server.exe ~\korice\kotauri\web
 cp -r -fo ~\korice\kotauri\rice06_02\target\site ~\korice\kotauri\web
 $env:LEPTOS_SITE_ROOT='site'
 $env:LEPTOS_SITE_ADDR='127.0.0.1:3005'
-.\server
+.\server.exe
 ```
 > * 瀏覽網站
