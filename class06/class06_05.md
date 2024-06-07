@@ -11,7 +11,7 @@ git init -q;git add .;git commit -m 'first commit'
 ```
 > * copy rice06\rice06_04
 ```
-trunk serve
+trunk serve --port 3000
 ```
 > * 瀏覽網站
 * src/main.rs
