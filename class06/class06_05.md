@@ -1,22 +1,26 @@
 ```
-# cd ~\korice\kotauri\rice06_04
-cd ~;rm ~\korice\kotauri\rice06_04 -r -fo
+# cd ~\korice\kotauri\rice06_05
+cd ~;rm ~\korice\kotauri\rice06_05 -r -fo
 ni ~\korice\kotauri -i d -f | cd
-cargo init rice06_04
-cd rice06_04
-cargo add leptos --features=csr
-ac .gitignore /dist
-cargo add console_error_panic_hook console_log log
+cargo create-tauri-app --beta
+* rice06_05
+* Rust->Leptos->yes(mobile)
+cd rice06_05
+ac .gitignore src-tauri/gen/
+# ac .gitignore src-tauri/.cargo/
 git init -q;git add .;git commit -m 'first commit'
+cargo tauri android init
+cargo tauri dev
+cargo tauri android dev
+git add .;git commit -m 'go_01'
 ```
-> * copy rice06\rice06_04
+> * copy rice06\rice06_05\go_01
 ```
-trunk serve --port 3000
+git add .;git commit -m 'go_02'
+cargo tauri dev
 ```
-> * 瀏覽網站
-* src/main.rs
+> * copy rice06\rice06_05\go_02
 ```
-console_error_panic_hook::set_once();
+git add .;git commit -m 'go_03'
+cargo tauri dev
 ```
-> * 瀏覽網站
-
