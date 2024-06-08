@@ -1,0 +1,12 @@
+{
+  "emmet.includeLanguages": {
+    "rust": "html"
+  },
+  "rust-analyzer.rustfmt.overrideCommand": [
+    "leptosfmt",
+    "--config-file",
+    "${workspaceFolder}\\leptosfmt.toml",
+    "--stdin",
+    "--rustfmt",
+  ]
+}

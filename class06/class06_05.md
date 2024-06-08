@@ -24,3 +24,9 @@ cargo tauri dev
 git add .;git commit -m 'go_03'
 cargo tauri dev
 ```
+> * https://github.com/leptos-rs/leptos/blob/main/examples/counter/index.html
+> * copy rice06\rice06_05\go_03
+```
+git add .;git commit -m 'go_04'
+cargo tauri dev
+```

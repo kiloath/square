@@ -30,7 +30,7 @@ trunk serve
 ```
 ac .gitignore /dist
 git init -q;git add .;git commit -m 'first commit'
-cargo add console_error_panic_hook cargo add console_log log
+cargo add console_error_panic_hook console_log log
 ```
 > * copy rice06\rice06_03
 ```
