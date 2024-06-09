@@ -5,6 +5,16 @@
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"build":{
 		"dockerfile": "Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"rust-lang.rust-analyzer",
+				"serayuzgur.crates",
+				"tamasfe.even-better-toml",
+				"vadimcn.vscode-lldb"
+			]
+		}
 	}
 
 	// Use 'mounts' to make the cargo cache persistent in a Docker Volume.
