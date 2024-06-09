@@ -6,6 +6,6 @@ RUN rustup target add wasm32-unknown-unknown
 RUN cargo install --locked trunk
 RUN cargo install --locked cargo-leptos
 RUN cargo install cargo-generate
-RUN chmod +w /usr/local/cargo
+RUN chown -R vscode /usr/local/cargo
 ENV LEPTOS_CARGO_GENERATE_VERSION=v0.21.0
 ENV LEPTOS_SASS_VERSION=1.71.0
