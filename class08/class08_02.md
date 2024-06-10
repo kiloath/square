@@ -1,5 +1,3 @@
-* egui - web
-* https://github.com/emilk/egui
 ```
 docker version
 # wsl --set-default rancher-desktop
