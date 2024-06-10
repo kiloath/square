@@ -10,5 +10,5 @@ cargo leptos new --git leptos-rs/start
 * Project Name: rice08_02
 * Use nightly features? No
 cd rice08_02
-cargo leptos watch
+cargo leptos serve
 ```
