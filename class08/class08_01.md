@@ -15,9 +15,9 @@ cargo install --locked trunk
 cargo install --locked cargo-leptos
 cargo install cargo-generate
 cargo leptos new --git https://github.com/leptos-rs/start
-* Project Name: rice07_01
+* Project Name: rice08_01
 * Use nightly features? No
-cd rice07_01
+cd rice08_01
 sudo su
 cargo leptos watch
 ```
