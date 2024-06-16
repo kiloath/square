@@ -1,8 +1,9 @@
 ```
-$w='~\korice\korust'
-cd ~;rm $w -r -fo;ni $w -i d -f;cd $w
+cd ~ ; rm ~\korice\korust -r -fo
+ni ~\korice\korust -i d -f | cd
 code .
 ```
+> * copy class10\\class10_01\\*
 > * F1 -> Dev Containers: Add Dev Container Configurations Files...
 > * rust -> bookworm
 > * F1 -> Dev Conainters: Rebuild and Reopen in Container
