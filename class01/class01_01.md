@@ -1,9 +1,6 @@
 ```
-docker version
-# wsl --set-default rancher-desktop
-cd ~ ; rm ~\korice\korust -r -fo -ea si
-ni ~\korice\korust -i d -f | cd
-# cd ~\korice\korust
+$w='~\korice\korust'
+cd ~;rm $w -r -fo;ni $w -i d -f;cd $w
 code .
 ```
 > * copy workspace\korust_build\\*
