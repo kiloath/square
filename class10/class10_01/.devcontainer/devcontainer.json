@@ -2,25 +2,9 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/rust
 {
 	"name": "Rust",
-	// "remoteUser": "root",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"build": {
-		"dockerfile": "Dockerfile"
-	},
-	"runArgs": [
-		"--init",
-		"--name=korust"
-	],
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"rust-lang.rust-analyzer",
-				"tamasfe.even-better-toml",
-				"serayuzgur.crates",
-				"vadimcn.vscode-lldb"
-			]
-		}
-	}
+	"image": "korustbase:latest",
+	"runArgs": ["--init","--name=korust"]
 	// Use 'mounts' to make the cargo cache persistent in a Docker Volume.
 	// "mounts": [
 	// 	{

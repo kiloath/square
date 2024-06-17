@@ -7,5 +7,19 @@ code .
 > * rust -> bookworm
 > * F1 -> Dev Conainters: Rebuild and Reopen in Container
 > * 解決憑證問題
-> * 解決vscode權限問題
+> * 討論vscode權限問題
+
+* 優化images重複使用
+```
+docker build -t korustbase:latest .
+```
+* devcontainer.json
+```
+"image": "korustbase:latest",
+```
+> * F1 -> Dev Conainters: Rebuild and Reopen in Container
+```
+cargo new rice01_01
+cd rice01_01
+cargo run
 ```
