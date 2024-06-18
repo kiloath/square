@@ -9,4 +9,5 @@ ENV PIPX_BIN_DIR /usr/local/bin
 RUN pipx ensurepath \
 && pipx install conan
 USER vscode
+RUN conan profile detect
 RUN cargo install cargo-update

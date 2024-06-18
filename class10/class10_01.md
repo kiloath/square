@@ -19,19 +19,19 @@ docker build -t korustbase:latest .
 ```
 > * F1 -> Dev Conainters: Rebuild and Reopen in Container
 ```
-cargo new rice01_01
-cd rice01_01
+cargo new rice10_01
+cd rice10_01
 cargo run
 ```
 > * 修改Dockerfile, 重新建置Conan環境
 ```
+cd $w/.devcontainer
 docker rm korust -f
 docker rmi korustbase
 docker build -t korustbase:latest .
 ```
 > * F1 -> Dev Conainters: Rebuild and Reopen in Container
 ```
-cd ..
 conan profile detect
 mkdir hello_world
 cd hello_world
