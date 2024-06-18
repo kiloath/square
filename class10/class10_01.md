@@ -23,3 +23,20 @@ cargo new rice01_01
 cd rice01_01
 cargo run
 ```
+> * 修改Dockerfile, 重新建置Conan環境
+```
+docker rm korust -f
+dokcer rmi korustbase
+docker build -t korustbase:latest .
+```
+> * F1 -> Dev Conainters: Rebuild and Reopen in Container
+```
+cd ..
+conan profile detect
+mkdir hello_world
+cd hello_world
+conan new cmake_exe -d name=hello_world -d version=1.0
+conan install .
+conan build .
+./build/Release/hello_world
+```
