@@ -26,7 +26,7 @@ cargo run
 > * 修改Dockerfile, 重新建置Conan環境
 ```
 docker rm korust -f
-dokcer rmi korustbase
+docker rmi korustbase
 docker build -t korustbase:latest .
 ```
 > * F1 -> Dev Conainters: Rebuild and Reopen in Container
