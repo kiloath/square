@@ -11,4 +11,4 @@ RUN pipx ensurepath \
 USER vscode
 RUN conan profile detect
 RUN cargo install cargo-update
-RUN cargo install cross
+# RUN cargo install cross

@@ -3,7 +3,7 @@ $w='~\korice\korust'
 cd ~;rm $w -r -fo;ni $w -i d -f;cd $w
 code .
 ```
-> * copy class10\\class10_01\\*
+> * copy class10\\class10_02\\*
 ```
 cd $w\.devcontainer
 .\export_crt.ps1
