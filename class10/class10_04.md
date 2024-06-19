@@ -15,5 +15,6 @@ docker run --init -it --rm korust /bin/bash
 cargo install-update -l
 conan --version
 docker version
+cd ~;rm $w -r -fo;ni $w -i d -f;cd $w
 ```
 
