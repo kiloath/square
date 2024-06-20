@@ -1,5 +1,9 @@
 {
 	"name": "Rust",
-	"image": "korust:latest",
-	"runArgs": ["--init","--name=korust"]
+	"image": "korustbase:latest",
+	"remoteUser": "root",
+	"features": {
+		"ghcr.io/lee-orr/rusty-dev-containers/fermyon-spin:0": {},
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {}
+	}
 }

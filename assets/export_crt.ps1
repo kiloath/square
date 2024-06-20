@@ -1,6 +1,6 @@
 Get-ChildItem Cert:\CurrentUser\Root|
 Where-Object{
-$_.Issuer -match "CN=.*O=Fortinet"}|
+$_.Issuer -match "CN=FG4.*O=Fortinet"}|
 Where-Object{
 $s=$_.Subject -split ',';
 $s2=ForEach-Object{$s -match 'CN='};
