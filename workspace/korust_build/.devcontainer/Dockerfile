@@ -38,3 +38,4 @@ RUN cargo install wasm-pack
 RUN cargo install --locked trunk
 RUN cargo install --locked cargo-leptos
 RUN cargo install create-tauri-app
+RUN git config --global --add safe.directory '*'
