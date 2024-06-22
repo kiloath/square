@@ -16,7 +16,6 @@ cd class11_02/
 ```
 git add .;git commit -m 'step01'
 cargo build
-cargo install uniffi-bindgen-cpp --git https://github.com/NordSecurity/uniffi-bindgen-cpp --tag v0.5.0+v0.25.0
 uniffi-bindgen-cpp $(pwd)/src/math.udl
 cd /workspaces/korust
 mkdir hello_world
