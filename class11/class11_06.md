@@ -1,4 +1,4 @@
-# class11_05
+# class11_06
 * https://docs.conan.io/2/tutorial/consuming_packages/different_configurations.html
 ```
 $w='~\korice\korust'
