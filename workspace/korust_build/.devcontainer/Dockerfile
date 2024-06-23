@@ -40,3 +40,4 @@ RUN cargo install --locked cargo-leptos
 RUN cargo install create-tauri-app
 RUN cargo install uniffi-bindgen-cpp --git https://github.com/NordSecurity/uniffi-bindgen-cpp --tag v0.5.0+v0.25.0
 RUN git config --global --add safe.directory '*'
+RUN echo 'export PROMPT_DIRTRIM=1' >> ~/.bashrc
