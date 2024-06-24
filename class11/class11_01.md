@@ -3,9 +3,7 @@
 ```
 $w='~\korice\korust_build'
 cd ~;rm $w -r -fo;ni $w -i d -f;cd $w
-```
-> * copy workspace\\korust_build\\*
-```
+copy -r "~\korice\square\workspace\korust_build\.devcontainer" .
 cd .\.devcontainer\
 .\rebuild_korust.ps1
 cd ~;rm $w -r -fo
