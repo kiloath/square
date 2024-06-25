@@ -12,7 +12,7 @@ cd ~;rm $w -r -fo
 ```
 $w='~\korice\korust'
 cd ~;rm $w -r -fo;ni $w -i d -f;cd $w
-copy -r "~\korice\square\workspace\korust\.devcontainer" .
+copy -r "~\korice\square\workspace\korust\.devcontainer" . -fo
 git init -q;git add .;git commit -m 'first commit'
 code .
 ```
