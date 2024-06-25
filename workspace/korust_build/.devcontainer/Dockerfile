@@ -26,6 +26,7 @@ RUN pipx ensurepath \
 && pipx install conan
 USER vscode
 RUN conan profile detect
+RUN conan remote update conancenter --insecure
 RUN rustup toolchain install nightly
 RUN rustup target add wasm32-unknown-unknown
 RUN rustup target add x86_64-pc-windows-gnu
