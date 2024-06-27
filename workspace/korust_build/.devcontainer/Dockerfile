@@ -43,3 +43,4 @@ RUN cargo install uniffi-bindgen-cpp --git https://github.com/NordSecurity/uniff
 RUN git config --global --add safe.directory '*'
 RUN git config --global core.autocrlf true
 RUN echo 'export PROMPT_DIRTRIM=1' >> ~/.bashrc
+RUN echo "tools.files.download:verify=False" >> ~/.conan2/global.conf
