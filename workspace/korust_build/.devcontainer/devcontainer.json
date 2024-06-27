@@ -9,7 +9,8 @@
 		"vscode": {
 			"extensions": [
 				"clang-format.vscode-clang-format",
-				"ms-vscode.cmake-tools"
+				"ms-vscode.cmake-tools",
+				"ms-vscode.cpptools-extension-pack"
 			]
 		}
 	}
