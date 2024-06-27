@@ -17,8 +17,7 @@ file \
 libssl-dev \
 libayatana-appindicator3-dev \
 librsvg2-dev \
-binaryen \
-clang-format
+binaryen
 RUN wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 RUN /bin/bash -c "source /root/.nvm/nvm.sh \
 && nvm install node \
@@ -26,6 +25,7 @@ RUN /bin/bash -c "source /root/.nvm/nvm.sh \
 RUN pipx ensurepath \
 && pipx install conan
 USER vscode
+RUN sudo apt install -y clang-format
 RUN conan profile detect
 RUN conan remote update conancenter --insecure
 RUN rustup toolchain install nightly
