@@ -25,7 +25,6 @@ RUN /bin/bash -c "source /root/.nvm/nvm.sh \
 RUN pipx ensurepath \
 && pipx install conan
 USER vscode
-RUN sudo apt install -y clang-format
 RUN conan profile detect
 RUN conan remote update conancenter --insecure
 RUN rustup toolchain install nightly
