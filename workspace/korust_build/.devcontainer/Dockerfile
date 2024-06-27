@@ -17,7 +17,8 @@ file \
 libssl-dev \
 libayatana-appindicator3-dev \
 librsvg2-dev \
-binaryen
+binaryen \
+clang-format
 RUN wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 RUN /bin/bash -c "source /root/.nvm/nvm.sh \
 && nvm install node \
