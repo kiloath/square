@@ -8,7 +8,9 @@ ENV LEPTOS_CARGO_GENERATE_VERSION=v0.21.0
 ENV LEPTOS_SASS_VERSION=1.71.0
 ENV LEPTOS_SITE_ROOT=site
 RUN apt update \
-&& apt install -yq cmake pipx \
+&& apt install -yq p7zip-full \
+cmake \
+pipx \
 libwebkit2gtk-4.1-dev \
 build-essential \
 curl \
@@ -18,6 +20,11 @@ libssl-dev \
 libayatana-appindicator3-dev \
 librsvg2-dev \
 binaryen
+RUN mkdir /opt/powerclang
+RUN curl https://powertech.center/data/clang/beta/powerclang-linux-x64.7z --output powerclang.7z
+RUN 7z x powerclang.7z "-o/opt/powerclang"
+RUN rm powerclang.7z
+RUN /opt/powerclang/create_symlinks.sh
 RUN wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 RUN /bin/bash -c "source /root/.nvm/nvm.sh \
 && nvm install node \
@@ -44,3 +51,4 @@ RUN git config --global --add safe.directory '*'
 RUN git config --global core.autocrlf true
 RUN echo 'export PROMPT_DIRTRIM=1' >> ~/.bashrc
 RUN echo "tools.files.download:verify=False" >> ~/.conan2/global.conf
+RUN sudo apt update
