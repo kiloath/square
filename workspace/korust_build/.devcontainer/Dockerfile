@@ -20,11 +20,11 @@ libssl-dev \
 libayatana-appindicator3-dev \
 librsvg2-dev \
 binaryen
-RUN mkdir /opt/powerclang
-RUN curl https://powertech.center/data/clang/beta/powerclang-linux-x64.7z --output powerclang.7z
-RUN 7z x powerclang.7z "-o/opt/powerclang"
-RUN rm powerclang.7z
-RUN /opt/powerclang/create_symlinks.sh
+#RUN mkdir /opt/powerclang
+#RUN curl https://powertech.center/data/clang/beta/powerclang-linux-x64.7z --output powerclang.7z
+#RUN 7z x powerclang.7z "-o/opt/powerclang"
+#RUN rm powerclang.7z
+#RUN /opt/powerclang/create_symlinks.sh
 RUN wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 RUN /bin/bash -c "source /root/.nvm/nvm.sh \
 && nvm install node \
