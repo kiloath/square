@@ -4,7 +4,7 @@
 w=/workspaces/korust
 cd $w
 git clone https://github.com/conan-io/examples2.git
-cd ${w}/examples2/tutorial/consuming_packages/simple_cmake_project
+cd $w/examples2/tutorial/consuming_packages/simple_cmake_project
 conan install . --output-folder=build --build=missing
 cd build
 cmake .. -DCMAKE_TOOLCHAIN_FILE=conan_toolchain.cmake -DCMAKE_BUILD_TYPE=Release
