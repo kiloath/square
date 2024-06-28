@@ -24,4 +24,24 @@ cmake --build .
 cmake .. -DCMAKE_TOOLCHAIN_FILE=conan_toolchain.cmake -DCMAKE_BUILD_TYPE=Debug
 cmake --build .
 ./compressor
+cd $w/examples2/tutorial/consuming_packages/different_configurations
+rm -r build/
+conan install . --output-folder=build --build=missing --settings=build_type=Debug
+cd build
+cmake .. -DCMAKE_TOOLCHAIN_FILE=conan_toolchain.cmake -DCMAKE_BUILD_TYPE=Debug
+cmake --build .
+./compressor
+cd $w/examples2/tutorial/consuming_packages/different_configurations
+rm -r build/
+conan install . --output-folder=build --build=missing --options=zlib/1.2.11:shared=True
+cd build
+cmake .. -DCMAKE_TOOLCHAIN_FILE=conan_toolchain.cmake -DCMAKE_BUILD_TYPE=Release
+cmake --build .
+./compressor
+find /usr -name 'libz.so.*'
+find ~/.conan2 -name 'libz.so.*'
+source conanrun.sh
+./compressor
+source deactivate_conanrun.sh
+./compressor
 ```
