@@ -6,7 +6,7 @@ cargo leptos new --git leptos-rs/start-axum
 * rice12_02
 * No: Use nightly feature?
 cd rice12_02/
-git init -q;git add .;git commit -m 'first commit'
+git add .;git commit -m 'first commit'
 cargo leptos watch
 ```
 > * Cargo.toml先改為Cargo.txt
