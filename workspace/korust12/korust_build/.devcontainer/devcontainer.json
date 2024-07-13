@@ -1,4 +1,4 @@
 {
 	"name": "Rust",
-	"image": "korustbase:latest"
+	"image": "korust12base:latest"
 }

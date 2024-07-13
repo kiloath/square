@@ -1,11 +1,12 @@
 # class12_02
 
+~\korice\square\workspace\korust12\korust_build\.devcontainer\rebuild_korust.ps1
 ```
 cargo leptos new --git leptos-rs/start-axum
 * rice12_02
 * No: Use nightly feature?
 cd rice12_02/
-git add .;git commit -m 'first commit'
+git init -q;git add .;git commit -m 'first commit'
 cargo leptos watch
 ```
 > * Cargo.toml先改為Cargo.txt
