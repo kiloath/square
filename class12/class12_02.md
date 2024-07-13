@@ -1,6 +1,10 @@
 # class12_02
-
-~\korice\square\workspace\korust12\korust_build\.devcontainer\rebuild_korust.ps1
+```
+$w='~\korice\korust12'
+cd $w
+code .
+```
+> * 在容器中重新開啟
 ```
 cargo leptos new --git leptos-rs/start-axum
 * rice12_02
