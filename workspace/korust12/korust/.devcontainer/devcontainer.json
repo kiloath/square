@@ -1,0 +1,12 @@
+{
+	"name": "Rust",
+	"image": "korust12:latest",
+	"runArgs": [
+		"--init",
+		"--name=korust12"
+	],
+	"remoteEnv": {
+		"LEPTOS_SITE_ROOT": "site"
+	},
+	"postCreateCommand": "./.devcontainer/postCreateCommand.sh"
+}
