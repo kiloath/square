@@ -1,5 +1,5 @@
 $w='~\korice\korust_build'
-cd ~;rm $w -r -fo;ni $w -i d -f;cd $w
+cd ~;ni $w -i d -f;cd $w
 copy -r "~\korice\square\workspace\korust12\korust_build\.devcontainer" .
 cd .\.devcontainer\
 copy "~\korice\square\assets\export_crt.ps1" .

@@ -1,15 +1,16 @@
-# class12_02
+# class12_03
 ```
 $w='~\korice\korust12';cd $w;code .
 ```
 > * 在容器中重新開啟
 ```
-cargo leptos new --git leptos-rs/start-axum
-* rice12_02
+cd /workspaces/korust12
+cargo leptos new --git https://github.com/leptos-rs/start-axum-workspace/
+* rice12_03
 * No: Use nightly feature?
-cd rice12_02/
+cd rice12_03/
 git add .;git commit -m 'first commit'
-cargo leptos watch
+cargo leptos serve
 ```
 > * Cargo.toml先改為Cargo.txt
 ```
