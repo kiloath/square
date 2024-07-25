@@ -9,6 +9,7 @@ salvo new rice13_02
 * salvo_web_site
 * sea-orm
 * sqlite
+cd rice13_02/
 cargo run
 ```
 ```
