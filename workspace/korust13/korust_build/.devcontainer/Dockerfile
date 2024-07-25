@@ -8,6 +8,7 @@ USER vscode
 RUN rustup target add wasm32-unknown-unknown
 RUN cargo install cargo-update
 RUN cargo install cargo-generate
+RUN cargo install salvo-cli
 RUN git config --global --add safe.directory '*'
 RUN git config --global core.autocrlf true
 RUN echo 'export PROMPT_DIRTRIM=1' >> ~/.bashrc
