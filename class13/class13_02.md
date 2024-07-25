@@ -13,6 +13,11 @@ cd rice13_02/
 cargo run
 ```
 ```
+cargo build --release
+./target/release/rice13_02
+cross build --release --target x86_64-pc-windows-gnu
+```
+```
 cargo leptos new --git leptos-rs/start-axum
 * rice12_02
 * No: Use nightly feature?
