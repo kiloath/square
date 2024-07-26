@@ -1,6 +1,6 @@
 {
 	"name": "Rust",
-	"image": "korust13:latest",
+	"build": {"dockerfile": "Dockerfile"},
 	"runArgs": [
 		"--init",
 		"--name=korust13"
