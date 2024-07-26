@@ -1,6 +1,7 @@
 # class13_01
 ```
 $korust='korust13'
+$koreset=$true
 & ~\korice\square\workspace\newrice.ps1
 ```
 > * 在容器中重新開啟
@@ -8,8 +9,7 @@ $korust='korust13'
 rice=rice13_01
 salvo new $rice
 * salvo_web_site
-* sea-orm
-* sqlite
+* unnecessary
 cd $rice
 cargo run
 ```
