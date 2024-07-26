@@ -1,0 +1,7 @@
+{
+	"name": "Rust",
+	"image": "korustbase:latest",
+	"features": {
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {}
+	}
+}

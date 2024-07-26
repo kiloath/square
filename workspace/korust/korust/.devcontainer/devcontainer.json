@@ -1,0 +1,9 @@
+{
+	"name": "Rust",
+	"image": "korust:latest",
+	"runArgs": [
+		"--init",
+		"--name=korust"
+	],
+	"postCreateCommand": "./.devcontainer/postCreateCommand.sh"
+}
