@@ -10,7 +10,4 @@ docker rmi "${korust}base"
 docker rmi $korust
 docker build -t "${korust}base:latest" .
 devcontainer build --workspace-folder .. --image-name "${korust}:latest"
-cd ~;rm $w -r -fo
-$w="~\korice\$korust"
-cd ~;rm $w -r -fo;ni $w -i d -f;cd $w
-copy -r "~\korice\square\workspace\$korust\korust\.devcontainer" . -fo
+# cd ~;rm $w -r -fo

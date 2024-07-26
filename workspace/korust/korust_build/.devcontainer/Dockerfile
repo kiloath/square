@@ -3,8 +3,9 @@ COPY *.crt /usr/local/share/ca-certificates/
 RUN update-ca-certificates
 RUN rm -f /usr/local/share/ca-certificates/*.crt
 ENV NODE_EXTRA_CA_CERTS=/etc/ssl/certs/ca-certificates.crt
-RUN apt update
+RUN apt update -y
 USER vscode
+RUN sudo apt update -y
 RUN rustup target add x86_64-pc-windows-gnu
 RUN rustup target add wasm32-unknown-unknown
 RUN cargo install cargo-update
