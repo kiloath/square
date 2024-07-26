@@ -20,7 +20,7 @@ cross build --release --target x86_64-pc-windows-gnu
 ```
 ```
 $rice='rice13_01'
-target\x86_64-pc-windows-gnu\release\${rice}.exe
+~\korice\$korust\$rice\target\x86_64-pc-windows-gnu\release\${rice}.exe
 ```
 ## 參考
 https://github.com/salvo-rs/salvo
