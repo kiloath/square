@@ -1,9 +1,0 @@
-{
-	"name": "Rust",
-	"build": {"dockerfile": "Dockerfile"},
-	"runArgs": [
-		"--init",
-		"--name=korust13"
-	],
-	"postCreateCommand": "./.devcontainer/postCreateCommand.sh"
-}

@@ -10,4 +10,4 @@ docker rmi "${korust}base"
 docker rmi $korust
 docker build -t "${korust}base:latest" .
 devcontainer build --workspace-folder .. --image-name "${korust}:latest"
-# cd ~;rm $w -r -fo
+cd ~;rm $w -r -fo
