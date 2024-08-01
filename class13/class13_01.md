@@ -14,6 +14,10 @@ cd $rice
 cargo run
 ```
 ```
+docker pull myreg2:5000/cross-rs/x86_64-pc-windows-gnu:0.2.5
+docker tag myreg2:5000/cross-rs/x86_64-pc-windows-gnu:0.2.5 ghcr.io/cross-rs/x86_64-pc-windows-gnu:0.2.5
+```
+```
 cargo build --release
 ./target/release/$rice
 cross build --release --target x86_64-pc-windows-gnu
