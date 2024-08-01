@@ -1,9 +1,11 @@
 {
 	"name": "Rust",
 	"image": "korust13:latest",
+	"remoteUser": "root",
 	"runArgs": [
 		"--init",
 		"--name=korust13"
 	],
-	"postCreateCommand": "./.devcontainer/postCreateCommand.sh"
+	"postCreateCommand": "./.devcontainer/postCreateCommand.sh",
+	"postStartCommand": "echo '192.168.103.107    myreg1' >> /etc/hosts"
 }
