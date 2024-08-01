@@ -26,9 +26,6 @@ copy -r -fo ~\korice\korust13\rice13_01\config\ .
 .\rice13_01.exe
 http://127.0.0.1:5800/
 ```
-```
-$rice='rice13_01'
-~\korice\$korust\$rice\target\x86_64-pc-windows-gnu\release\${rice}.exe
-```
+
 ## 參考
 https://github.com/salvo-rs/salvo
