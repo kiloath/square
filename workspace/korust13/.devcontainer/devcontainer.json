@@ -7,5 +7,5 @@
 		"--name=korust13"
 	],
 	"postCreateCommand": "./.devcontainer/postCreateCommand.sh",
-	"postStartCommand": "echo '192.168.103.107    myreg1' >> /etc/hosts"
+	"postStartCommand": "echo '192.168.103.107\tmyreg1\n192.168.198.42\tmyreg2' >> /etc/hosts"
 }
