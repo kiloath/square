@@ -21,10 +21,12 @@ docker tag myreg2:5000/cross-rs/x86_64-pc-windows-gnu:0.2.5 ghcr.io/cross-rs/x86
 cargo build --release
 ./target/release/$rice
 cross build --release --target x86_64-pc-windows-gnu
+```
+```
 cd ~\korice\$korust\rice13_01\target\x86_64-pc-windows-gnu\release
 copy -r -fo ~\korice\korust13\rice13_01\config\ .
 .\rice13_01.exe
-http://127.0.0.1:5800/
+start http://127.0.0.1:5800/
 ```
 
 ## 參考
