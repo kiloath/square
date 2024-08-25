@@ -3,7 +3,7 @@ USER root
 RUN cargo install create-tauri-app --locked
 RUN cargo install tauri-cli --version '^2.0.0-rc'
 RUN cargo install trunk --locked
-RUN apt update \
+RUN apt update -y && apt upgrade -y \
 && apt install -y libwebkit2gtk-4.0-dev \
 build-essential \
 curl \
