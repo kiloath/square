@@ -3,14 +3,14 @@
 $korust='korust01'
 & ~\korice\square\scripts\start_rice.ps1
 ```
-```
-choco install vcxsrv
-```
 > * 在容器中重新開啟
-> * 執行Xlaunch, 勾選 "Disable access control"
 ```
-cargo create-tauri-app --rc
-* rice14_01
-* Rust->Leptos->no(mobile)
-cargo tauri dev
+cargo new rice01_01 \
+&& cd rice01_01 \
+&& cargo run
 ```
+```
+cross build --release --target x86_64-pc-windows-gnu
+```
+> * target\x86_64-pc-windows-gnu\release\rice01_01.exe
+
