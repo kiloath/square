@@ -1,0 +1,10 @@
+{
+	"name": "Rust",
+	"dockerFile": "Dockerfile",
+	"runArgs": [
+		"--init",
+		"--name=korust01"
+	],
+	"postCreateCommand": "./.devcontainer/postCreateCommand.sh",
+	"postStartCommand": "sudo -- sh -c \"echo '192.168.103.107\tmyreg1\n192.168.198.42\tmyreg2' >> /etc/hosts\""
+}
