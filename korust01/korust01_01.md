@@ -1,7 +1,8 @@
-# class14_01
+# korust01_01
 ```
 $korust='korust01'
 & ~\korice\square\scripts\start_rice.ps1
+# rm -r -fo rice01_01
 ```
 > * 在容器中重新開啟
 ```
