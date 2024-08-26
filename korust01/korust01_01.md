@@ -11,7 +11,7 @@ cargo new rice01_01 \
 && cargo run
 ```
 ```
-cross build --release --target x86_64-pc-windows-gnu
+cargo xwin build --release --target x86_64-pc-windows-msvc
 ```
-> * target\x86_64-pc-windows-gnu\release\rice01_01.exe
+> * target\x86_64-pc-windows-msvc\release\rice01_01.exe
 
