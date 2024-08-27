@@ -12,9 +12,10 @@ code .
 ```
 choco install vcxsrv
 ```
-> * 執行Xlaunch, 勾選 "Disable access control"
+> * 使用管理者權限執行Xlaunch, 勾選 "Disable access control"
 ```
-export DISPLAY=`/sbin/ip route|awk '/default/ { print $3 }'`:0.0
+# export DISPLAY=`/sbin/ip route|awk '/default/ { print $3 }'`:0.0
+export DISPLAY=host.docker.internal:0.0
 cargo install create-tauri-app
 cargo create-tauri-app --beta
 * rice03_02
