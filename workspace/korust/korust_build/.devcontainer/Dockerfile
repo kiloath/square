@@ -17,6 +17,12 @@ libssl-dev \
 libgtk-3-dev \
 libayatana-appindicator3-dev \
 librsvg2-dev
+RUN apt install -y g++ \
+pkg-config \
+libx11-dev \
+libasound2-dev \
+libudev-dev \
+libxkbcommon-x11-0
 USER vscode
 RUN rustup target add x86_64-pc-windows-msvc
 RUN rustup target add wasm32-unknown-unknown
