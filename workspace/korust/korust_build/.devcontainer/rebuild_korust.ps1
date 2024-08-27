@@ -1,4 +1,4 @@
-$korust = 'korust'
+$korust = 'kiloath\korust'
 $w='~\korice\korust_build'
 cd ~
 if(Test-Path $w) {rm $w -r -fo}
