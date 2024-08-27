@@ -6,6 +6,7 @@ RUN rm -f /opt/src/scripts/dockerdaemon.sh
 RUN update-ca-certificates
 RUN rm -f /usr/local/share/ca-certificates/*.crt
 ENV NODE_EXTRA_CA_CERTS=/etc/ssl/certs/ca-certificates.crt
+ENV DISPLAY=host.docker.internal:0.0
 RUN apt update -y && apt upgrade -y \
 && apt install -y libwebkit2gtk-4.1-dev \
 build-essential \
