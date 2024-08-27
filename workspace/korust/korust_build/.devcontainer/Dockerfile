@@ -24,6 +24,7 @@ RUN cargo install cargo-generate
 RUN cargo install trunk --locked
 RUN cargo install cargo-xwin --locked
 RUN cargo install create-tauri-app
+RUN cargo install tauri-cli@^2.0.0-rc
 RUN git config --global --add safe.directory '*'
 RUN git config --global core.autocrlf true
 RUN echo 'export PROMPT_DIRTRIM=1' >> ~/.bashrc
