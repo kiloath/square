@@ -1,5 +1,13 @@
 # korust01_00
-* 只提供 latest
+* 檢查
+```
+docker version
+docker context list
+docker context use default
+wsl -l -v
+wsl --set-default rancher-desktop
+```
+* 建 Image: kiloath\korust
 ```
 ~\korice\square\workspace\korust\korust_build\.devcontainer\rebuild_korust.ps1
 docker login
