@@ -8,5 +8,5 @@ copy "~\korice\square\images\$korust\script\*" .
 copy "~\korice\square\assets\export_crt.ps1" .
 & .\export_crt.ps1
 docker rmi $korust
-docker build -t "${korust}:${version}" .
+docker build -t "kiloath/${korust}:${version}" .
 cd ~;rm $w -r -fo
