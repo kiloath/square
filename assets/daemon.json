@@ -1,0 +1,6 @@
+{
+    "features": {
+      "containerd-snapshotter": false
+    },
+    "insecure-registries": ["myreq1:5000","myreg2:5000"]
+}
