@@ -1,4 +1,4 @@
-$korust = 'korust1'
+$korust = 'korust2'
 $version = '1.1'
 $w='~\korice\korust_build'
 cd ~
